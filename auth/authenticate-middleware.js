@@ -15,7 +15,7 @@ module.exports = (req, res, next) => {
       }
   }); 
   } else {
-    res.status(400).json({message:"log in again "})
+    res.status(401).json({message:"log in again"})
   }
   
 };
